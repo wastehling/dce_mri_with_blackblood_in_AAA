@@ -1,0 +1,10 @@
+numpy
+scipy
+pandas
+matplotlib
+seaborn
+PyYAML
+nibabel
+SimpleITK
+torchio
+Pillow

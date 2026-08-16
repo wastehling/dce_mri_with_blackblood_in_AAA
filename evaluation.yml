@@ -1,0 +1,22 @@
+debug: False
+path_to_recon:          './reconstructed_images'
+path_to_evaluation:     './evaluation'
+path_to_postprocessing: './masks'
+path_to_dicom:          ''
+
+foldername_results: 'results'
+study_to_eval: 1
+mask_name: 'mask'
+name_df_all_data: 'df_all_data'
+recon_name_must_contain: ['recon_ID']
+patients_to_process: [1,2,3,4,5,]
+
+load_and_process_recons: True
+create_plots_patientwise: True
+
+show_plots: False
+plot_mid_slice_per_patient: True
+save_all_images: True
+plot_mean_wall_intensity_over_time: True
+scan_dur: 332
+masked_signal_plot_patients_to_use: [1,17]
